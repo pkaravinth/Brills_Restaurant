@@ -11,7 +11,7 @@ import Navbar from "./Components/MyNavBar";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
-// app.js
+
 function App()
 {
  
