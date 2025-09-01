@@ -1,0 +1,247 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Navbar.css */
+.navbar {
+  background-color:DarkSlateGray !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f8f9fa !important;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 10px 15px !important;
+  transition: all 0.3s ease-in-out;
+  color: #f8f9fa !important;
+}
+
+.nav-link:hover {
+  color: #f0ad4e !important; /* Gold hover effect */
+  transform: translateY(-2px);
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.dropdown-menu {
+  background-color: #333 !important;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown-item {
+  color: white !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: #f0ad4e !important;
+  color: black !important;
+}
+
+
+@media (max-width: 768px) {
+  .nav-link {
+    text-align: center;
+  }
+}
+
+
+
+.Welcome
+{
+  text-align:center;
+}
+.Welcomeimg
+{
+  box-shadow: 0px 0px 20px gray;
+  border-radius: 20px;
+}
+/* .HomeOffer
+{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: darkred;
+  text-shadow: 0px 0px 10px grey;
+  font-size: 50px;
+} */
+/* .menuspc
+{
+  font-size: 60px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkred;
+  text-shadow: 0px 0px 10px grey;
+} */
+.specials
+{
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 0 0 25px grey
+}
+.specialcontent
+{
+  text-align: center;
+  
+}
+/* .menu
+{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkred;
+  text-shadow: 0px 0px 10px grey;
+  font-size: 60px;
+} */
+.Footer
+{
+  background-image:url("https://img.freepik.com/premium-photo/black-wooden-wall-background_38607-401.jpg");
+  background-size:cover;
+  color:darkgrey;
+  background-repeat: no-repeat;
+}
+.Footerheading
+{
+  color: lightslategray;
+}
+.Footerimg
+{
+  border-radius: 10px;
+}
+.Footersub
+{
+  border-radius: 20px;
+}
+.footercon
+{
+  text-decoration: none;
+}
+.Inputcontact
+{
+  text-shadow: 0px 0px 10px gray ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: DarkSlateGray;
+  
+}
+.Input
+{
+  border-style: groove;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 35px;
+}
+.Inputtext
+{
+  border-color:grey;
+  border-width: 1px;
+  border-style: groove;
+  border-radius: 5px;
+}
+.Inputphoto
+{
+  display: flex;
+  justify-content: center;
+}
+.Property
+{
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 10px;
+  background-color:rgb(247, 245, 238)
+}
+.Service
+{
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 10px;
+  background-color:rgb(247, 245, 238)
+}
+.AboutHeading
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: DarkSlateGray;
+  text-shadow: 0px 0px 10px grey;
+}
+.two
+{
+  font-size: 60px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: DarkSlateGray;
+  text-shadow: 0px 0px 10px grey;
+}
+.Gallery
+{
+  border-radius: 25px;
+  box-shadow: 0 0 10px grey;
+}
+.Contactbtn
+{
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color:DarkSlateGray;
+  color: white;
+}
+
+
+.active
+{
+    text-align: center;
+}
+.bg
+{
+    background-image: url(https://media-cdn.grubhub.com/grubhub-marketing/image/upload/f_auto,fl_lossy/v1692270106/grubhubHomePage/sushi_homepage1.png);
+}
+.first
+{
+    text-align: center;
+}
+.special
+{
+    height:150px;
+}
